@@ -24,7 +24,7 @@ execute "gsettings set com.canonical.indicator.datetime custom-time-format '%l:%
 execute "gsettings set org.gnome.desktop.background picture-options 'stretched'" \
     "Set desktop background image options"
 
-execute "gsettings set org.gnome.libgnomekbd.keyboard layouts \"[ 'us', 'ro' ]\"" \
+execute "gsettings set org.gnome.libgnomekbd.keyboard layouts \"[ 'us' ]\"" \
     "Set keyboard languages"
 
 execute "gsettings set com.canonical.Unity.Launcher favorites \"[

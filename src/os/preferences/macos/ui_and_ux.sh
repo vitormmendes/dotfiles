@@ -11,9 +11,6 @@ execute "defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool
          defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true" \
    "Avoid creating '.DS_Store' files on network or USB volumes"
 
-execute "defaults write com.apple.menuextra.battery ShowPercent -string 'NO'" \
-    "Hide battery percentage from the menu bar"
-
 execute "sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true" \
     "Show language menu in the top right corner of the boot screen"
 
@@ -54,9 +51,6 @@ execute "defaults write -g NSDisableAutomaticTermination -bool true" \
 execute "defaults write -g NSNavPanelExpandedStateForSaveMode -bool true" \
     "Expand save panel by default"
 
-execute "defaults write -g NSTableViewDefaultSizeMode -int 2" \
-    "Set sidebar icon size to medium"
-
 execute "defaults write -g NSUseAnimatedFocusRing -bool false" \
     "Disable the over-the-top focus ring animation"
 
@@ -77,9 +71,6 @@ execute "sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.
          sudo scutil --set HostName 'laptop' && \
          sudo scutil --set LocalHostName 'laptop'" \
     "Set computer name"
-
-execute "sudo systemsetup -setrestartfreeze on" \
-    "Restart automatically if the computer freezes"
 
 execute "sudo defaults write /Library/Preferences/com.apple.Bluetooth.plist ControllerPowerState 0 && \
          sudo launchctl unload /System/Library/LaunchDaemons/com.apple.blued.plist && \
