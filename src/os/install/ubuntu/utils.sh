@@ -21,6 +21,10 @@ add_to_source_list() {
     sudo sh -c "printf 'deb $1' >> '/etc/apt/sources.list.d/$2'"
 }
 
+add_apt_repository() {
+    sudo add-apt-repository "'deb $1'"
+}
+
 autoremove() {
 
     # Remove packages that were automatically installed to satisfy

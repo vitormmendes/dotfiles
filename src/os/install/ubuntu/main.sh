@@ -18,6 +18,7 @@ upgrade
 ./image_tools.sh
 ./misc.sh
 ./misc_tools.sh
+./virtualization.sh
 ./../npm.sh
 ./tmux.sh
 ./../vim.sh

@@ -10,10 +10,11 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 ./homebrew.sh
 ./bash.sh
 ./../nvm.sh
-
+./java.sh
 ./browsers.sh
 ./compression_tools.sh
 ./git.sh
+./virtualization.sh
 ./gpg.sh
 ./image_tools.sh
 ./misc.sh
