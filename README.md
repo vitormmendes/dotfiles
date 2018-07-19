@@ -42,7 +42,6 @@ The setup process will:
 * Set custom
   [`macOS`](src/os/preferences/macos) /
   [`Ubuntu`](src/os/preferences/ubuntu) preferences
-* Install [`vim` plugins](src/vim/vim/plugins)
 
 Setup process in action:
 
@@ -125,7 +124,7 @@ settings from `~/.vimrc`.
 
 If you decide to fork this project, don't forget to substitute my
 username with your own in the [`setup` snippets](#setup) and [in the
-`setup` script](https://github.com/vitormmendes/dotfiles/blob/1503cf23ef23f6e31342b140bcd246625160b94f/src/os/setup.sh#L3).
+`setup` script](https://github.com/vitormmendes/dotfiles/blob/master/src/os/setup.sh#L3).
 
 ## Update
 
