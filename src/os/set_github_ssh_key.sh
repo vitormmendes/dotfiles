@@ -78,9 +78,8 @@ set_github_ssh_key() {
     generate_ssh_keys "$sshKeyFileName"
     add_ssh_configs "$sshKeyFileName"
     copy_public_ssh_key_to_clipboard "${sshKeyFileName}.pub"
-    open_github_ssh_page
-    test_ssh_connection \
-        && rm "${sshKeyFileName}.pub"
+    #open_github_ssh_page
+    #test_ssh_connection && rm "${sshKeyFileName}.pub"
 
 }
 
