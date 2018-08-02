@@ -14,4 +14,4 @@ brew_install "docker-compose" "docker-compose"
 
 # otherside
 brew_install "Virtual Box" "virtualbox" "caskroom/cask" "cask"
-brew_install "vagrant" "vagrant"
+brew_install "vagrant" "vagrant" "caskroom/cask" "cask"

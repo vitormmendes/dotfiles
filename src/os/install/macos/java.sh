@@ -8,6 +8,12 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 print_in_purple "\n   Java\n\n"
 
+# java 8
+brew_install "Java 8" "java8" "caskroom/versions" "cask"
+
+#today java 10 is latest version ;)
+brew_install "Java 10" "java" "caskroom/cask" "cask"
+
 # build tools
 brew_install "maven" "maven"
 brew_install "gradle" "gradle"
@@ -15,12 +21,6 @@ brew_install "ant" "ant"
 
 # many env java
 brew_install "jenv" "jenv"
-
-# java 8
-brew_install "Java 8" "java8" "caskroom/cask" "cask"
-
-#today java 10 is latest version ;)
-brew_install "Java 10" "java" "caskroom/cask" "cask"
 
 # tools
 brew_install "VisualVM" "visualvm" "caskroom/cask" "cask"
