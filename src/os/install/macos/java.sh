@@ -8,11 +8,11 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 
 print_in_purple "\n   Java\n\n"
 
-# java 8
+# java
+brew_install "Java 11" "java11" "caskroom/cask" "cask"
+brew_install "Java" "java" "caskroom/cask" "cask"
 brew_install "Java 8" "java8" "caskroom/versions" "cask"
 
-#today java 10 is latest version ;)
-brew_install "Java 10" "java" "caskroom/cask" "cask"
 
 # build tools
 brew_install "maven" "maven"
